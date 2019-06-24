@@ -8,8 +8,7 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common AOSP stuff.
 IS_PHONE := true
-TARGET_GAPPS_ARCH := arm64
-USE_GCAM := true
+BUILD_GAPPS := false
 TARGET_DENSITY := xxxhdpi
 TARGET_BOOT_ANIMATION_RES := 1440
 REVENGEOS_BUILDTYPE := OFFICIAL
